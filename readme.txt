@@ -3,7 +3,7 @@
 1.Open command prompt.
 2.Open source code's folder.
 3.write "g++ -o myCompiler.exe Main.cpp CompileChecker.cpp" , hit enter .
-4.myCompiler.exe is our myLanguage compiler.
+4.myCompiler.exe is our myLanguage compiler.(Already compiled version exists in the directory)
 
 ------How to run myLanguage compiler----
 
