@@ -1,0 +1,14 @@
+begin 
+  read aa ; 
+  read bb ; 
+  a = aa ; 
+  b = bb ; 
+  while ( b ) do begin 
+       t = b ; 
+       b = a % b ; 
+       a = t 
+  end ; 
+  gcd = a ; 
+  lcm = ( aa * bb ) / gcd ; 
+  print lcm  
+end 

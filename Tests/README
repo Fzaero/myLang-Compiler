@@ -1,0 +1,15 @@
+Test Files:
+===========
+add.my       :  adds two numbers 
+count.my     :  reads a number less than 100 and prints a,a+1,a+2,..99 
+gcd.my       :  computes greatest common divisor of two numbers 
+lcm.my       :  computes lowest common multiple  of two numbers 
+fibonacci.my :  prints Fibonacci numbers 
+logfib.my    :  computes nth Fibonacci number in O(log(n)) time
+prime.my     :  prints some prime numbers 
+swap.my      :  swaps two numbers 
+
+To give you an idea of how the generated code will look like,
+the file count.asm is  provided for the count.my test.
+You are allowed to use (copy/paste)  myread and myprint code 
+in your projects. 

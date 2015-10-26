@@ -23,7 +23,6 @@
      Ex: if you want to compile add.my but accidentally write addr.my, program gives error.
 * My program can't read argument from directory.
      Ex: if you want to compile add.my in Mycodes/ directory and write Mycodes/add.my , it will give error. You have to copy add.my to executable's folder. 
-
 -----Any Assumption------
 
 * There has to be a space between every token.

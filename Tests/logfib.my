@@ -1,0 +1,21 @@
+begin
+  read n ; 
+  p11 = 1 ; p12 = 1 ; p21 = 1 ; p22 = 0 ; 
+  r11 = 1 ; r12 = 0 ; r21 = 0 ; r22 = 1 ;
+  while ( n ) do begin 
+    if ( n % 2 ) then begin 
+       x11 = r11 ; x12 = r12 ; x21 = r21 ; x22 = r22 ; 
+       r11 = p11 * x11 + p12 * x21 ; 
+       r12 = p11 * x12 + p12 * x22 ; 
+       r21 = p21 * x11 + p22 * x21 ; 
+       r22 = p21 * x12 + p22 * x22   
+    end ; 
+    x11 = p11 ; x12 = p12 ; x21 = p21 ; x22 = p22 ; 
+    p11 = x11 * x11 + x12 * x21 ; 
+    p12 = x11 * x12 + x12 * x22 ; 
+    p21 = x21 * x11 + x22 * x21 ; 
+    p22 = x21 * x12 + x22 * x22 ; 
+    n  = n / 2 
+  end ; 
+  print r11  
+end

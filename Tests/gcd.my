@@ -1,0 +1,10 @@
+begin 
+  read a ; 
+  read b ; 
+  while ( b ) do begin 
+       t = b ; 
+       b = a % b ; 
+       a = t 
+  end ; 
+  print a
+end 

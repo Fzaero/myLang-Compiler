@@ -1,0 +1,6 @@
+begin
+   read a    ;
+   read b    ;
+   n = a + b ;
+   print n 
+end 
