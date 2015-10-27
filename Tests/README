@@ -11,5 +11,3 @@ swap.my      :  swaps two numbers
 
 To give you an idea of how the generated code will look like,
 the file count.asm is  provided for the count.my test.
-You are allowed to use (copy/paste)  myread and myprint code 
-in your projects. 
